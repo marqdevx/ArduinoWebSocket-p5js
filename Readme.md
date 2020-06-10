@@ -12,6 +12,9 @@ Preview
 * Arduino Board
 
 #### Setting the things up
+npm install express@4.15.2
+npm install socket.io
+
 * Upload a sketch to output serial numbers to an Arduino Board
 * Just go to the directory where you have installed this and type in the CMD `node app.js`
 * Go to the Arduino Create Plugin install Directory and open "Config.ini" we will need to replace the value at `origins=` with "http://localhost:3000" without quotes, the port can be different, see the server console to check.
