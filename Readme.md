@@ -20,7 +20,7 @@ This example we have a webpage that read the serial monitor from the Arduino Boa
 ##### Configure Arduino Create Plugin
 * Go to the Arduino Create Plugin install Directory and open "Config.ini" we will need to replace the value at `origins=` with "http://localhost:3000" without quotes, the port can be different, see the server console to check.
 ![Arduino plugin config](imgs/ArduinoPluginDirConfig.png)
-![Config INI](ConfigINI.png)
+![](imgs/ConfigINI.png)
 
 ##### Run the server
 * Just go to the directory where you have installed this and type in the CMD `node app.js`
