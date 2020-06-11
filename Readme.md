@@ -26,7 +26,7 @@ This example we have a webpage that read the serial monitor from the Arduino Boa
 * Just go to the directory where you have installed this and type in the CMD `node app.js`
 ##### Normal directory
 * Upload a sketch to output serial numbers to an Arduino Board
-* go to http://localhost:3000 and see the output
+* Go to http://localhost:3000 and see the output
 
 #### Troubleshooting
 * Open the Serial monitor from the IDE / Create to see if there are outputs
