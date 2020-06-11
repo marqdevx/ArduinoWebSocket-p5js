@@ -3,6 +3,7 @@ var app = require('express')();
 var http = require('http').Server(app);
 var io = require('socket.io')(http, { origins: '*:*'});
 var port = process.env.PORT || 3000;
+var path = require('path');
 
 //Read and write line commands
 const readline = require("readline");
@@ -13,7 +14,7 @@ const rl = readline.createInterface({
 
 //Send html to the user
 app.get('/', function(req, res){
-  res.sendFile(__dirname + '/index.html');
+  res.sendFile(path.normalize(__dirname + '/../index.html'));
 });
 //Listen to the port "port"
 http.listen(port, function(){
