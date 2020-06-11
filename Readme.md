@@ -23,7 +23,7 @@ This example we have a webpage that read the serial monitor from the Arduino Boa
 ![](imgs/ConfigINI.png)
 * Restart the plugin
 ##### Run the server
-* Just go to the directory where you have installed this and type in the CMD `node app.js`
+* Just go to the directory where you have installed this and type in the CMD `node app.js` or by launching the `run.bat`
 ##### Normal directory
 * Upload a sketch to output serial numbers to an Arduino Board
 * Go to http://localhost:3000 and see the output
