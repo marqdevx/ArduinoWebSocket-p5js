@@ -1,5 +1,5 @@
 # ArduinoWebSocket-p5js
-This example we have a webpage that read the serial monitor from the Arduino Board and move a ball in the canvas
+This example we have a webpage that reads the serial monitor from the Arduino Board and move a ball in the canvas
 
 ![Preview](imgs/Preview.gif)
 
